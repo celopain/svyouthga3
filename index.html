@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    >
+    <meta name="theme-color" content="#050816">
+    <meta
+        name="description"
+        content="Quest for the Hidden Star"
+    >
+
+    <title>Quest for the Hidden Star</title>
+
+    <link rel="stylesheet" href="style3.css">
+</head>
+
+<body>
+
+    <!-- Background -->
+    <canvas id="spaceCanvas"></canvas>
+
+    <div class="aurora aurora-1"></div>
+    <div class="aurora aurora-2"></div>
+
+    <!-- Main -->
+    <main class="page">
+
+        <section class="card" id="card">
+
+            <!-- Decorative corner brackets -->
+            <div class="corner corner-tl"></div>
+            <div class="corner corner-tr"></div>
+            <div class="corner corner-bl"></div>
+            <div class="corner corner-br"></div>
+
+            <!-- Top badge -->
+            <div class="badge">
+                <span class="badge-dot"></span>
+                SECRET DISCOVERY
+            </div>
+
+            <!-- Header -->
+            <header class="header">
+
+                <div class="title-small">
+                    ✦ THE QUEST BEGINS ✦
+                </div>
+
+                <h1 id="title">
+                    Searching for the
+                    <span>Hidden Star</span>
+                </h1>
+
+                <p class="subtitle" id="subtitle">
+                    Something mysterious is waiting
+                    in the darkness...
+                </p>
+
+            </header>
+
+            <!-- Countdown -->
+            <div class="countdown" id="countdown">
+
+                <div
+                    class="countdown-number"
+                    id="countdownNumber"
+                >
+                    3
+                </div>
+
+                <div class="countdown-label">
+                    PREPARING DISCOVERY
+                </div>
+
+            </div>
+
+            <!-- Star -->
+            <div
+                class="star-area"
+                id="starArea"
+                aria-label="Hidden star discovery area"
+            >
+
+                <div class="orbit orbit-1"></div>
+                <div class="orbit orbit-2"></div>
+                <div class="orbit orbit-3"></div>
+
+                <div class="star-halo"></div>
+
+                <button
+                    class="star-button"
+                    id="starButton"
+                    type="button"
+                    aria-label="Discover the hidden star"
+                >
+                    <span
+                        class="star-core"
+                        id="starCore"
+                    >
+                        ★
+                    </span>
+                </button>
+
+                <div class="star-label">
+                    <span class="pulse-dot"></span>
+                    Upang mahanap ang karunungan.
+                </div>
+
+            </div>
+
+            <!-- Success message -->
+            <div
+                class="message"
+                id="message"
+                aria-live="polite"
+            >
+
+                <div class="success-icon">
+                    🏆
+                </div>
+
+                <div class="success-title">
+                    CONGRATULATIONS
+                </div>
+
+                <p class="success-text">
+                    You discovered the
+                    <strong>Hidden Star!</strong>
+                </p>
+
+                <!-- Clue -->
+                <div class="clue-box">
+
+                    <div class="clue-heading">
+                        <span>🔐</span>
+                        YOUR CLUE <IS class=""></IS>
+                    </div>
+
+                    <div class="clue-line"></div>
+
+                    <p class="clue-text">
+                        “Look where water swirls around and around, while a machine turns it all with every cycle.”
+                    </p>
+
+                    <div class="clue-hint">
+                        YOUR NEXT DESTINATION AWAITS
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Footer -->
+            <footer class="footer">
+
+                <span>
+                    MCGI YOUTH
+                </span>
+
+                <span class="footer-separator">
+                    •
+                </span>
+
+                <span>
+                    GENERAL ASSEMBLY SUNVALLEY
+                </span>
+
+            </footer>
+
+        </section>
+
+    </main>
+
+    <!-- Particle container -->
+    <div id="particles"></div>
+
+    <script src="script3.js"></script>
+
+</body>
+</html>
+
